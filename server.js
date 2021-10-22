@@ -1,3 +1,4 @@
+// collaborated with team Hayden to successfully complete the project.
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
@@ -67,3 +68,4 @@ app.get('/', (req, res) => { //req is a request from the client side
 //         res.send('Message deleted!')
 //     })
 // })
+// collaborated with team Hayden to successfully complete the project.
