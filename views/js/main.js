@@ -1,8 +1,9 @@
+// collaborated with team Hayden to successfully complete the project.
 document.querySelector(".button").addEventListener("click", crypto)
 
 function crypto() {
   let symbols = document.querySelector('#crypto').value
-  const url = (`https://cors-anywhere.herokuapp.com/https://api.lunarcrush.com/v2?data=assets&key=7go5ymwp08iu332bz58dz8&symbol=${symbols}`)
+  const url = (`https://cors-anywhere.herokuapp.com/https://api.lunarcrush.com/v2?data=assets&key=${symbols}`)
   fetch(url)
     .then(res => res.json())
     .then(data => {
@@ -14,7 +15,7 @@ function crypto() {
 }
 function fetchCrypto() {
   let symbols = "BTC,ETC,ETH,DOGE,UNI,LTC,BCH,LINK"
-  const url = (`https://cors-anywhere.herokuapp.com/https://api.lunarcrush.com/v2?data=assets&key=7go5ymwp08iu332bz58dz8&symbol=${symbols}`)
+  const url = (`https://cors-anywhere.herokuapp.com/https://api.lunarcrush.com/v2?data=assets&key=${symbols}`)
   fetch(url)
     .then(res => res.json())
     .then(data => {
@@ -35,3 +36,4 @@ function fetchCrypto() {
     })
 }
 fetchCrypto()
+// collaborated with team Hayden to successfully complete the project.
