@@ -5,7 +5,7 @@
 
 ### Tech used: <h3>HTML, CSS,JavaScript,API ,Node.Js ,Express </h3>
   
-  ![name of image](image.url)
+  
   ### Lessons Learned
 <h3> Node.Js can be used in full-stack JavaScript development and features APIs to support HTTP requests, file systems and other server-side features.</h3>
 
